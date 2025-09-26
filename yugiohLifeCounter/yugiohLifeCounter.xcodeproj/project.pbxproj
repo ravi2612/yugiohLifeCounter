@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DF6266F32E86D19900C53EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6266DD2E86D19800C53EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6266E42E86D19800C53EC2;
+			remoteInfo = yugiohLifeCounter;
+		};
+		DF6266FD2E86D19900C53EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6266DD2E86D19800C53EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6266E42E86D19800C53EC2;
+			remoteInfo = yugiohLifeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF6266E52E86D19800C53EC2 /* yugiohLifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yugiohLifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6266F22E86D19900C53EC2 /* yugiohLifeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yugiohLifeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6266FC2E86D19900C53EC2 /* yugiohLifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yugiohLifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DF6266E72E86D19800C53EC2 /* yugiohLifeCounter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = yugiohLifeCounter;
+			sourceTree = "<group>";
+		};
+		DF6266F52E86D19900C53EC2 /* yugiohLifeCounterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = yugiohLifeCounterTests;
+			sourceTree = "<group>";
+		};
+		DF6266FF2E86D19900C53EC2 /* yugiohLifeCounterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = yugiohLifeCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6266E22E86D19800C53EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6266EF2E86D19900C53EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6266F92E86D19900C53EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6266DC2E86D19800C53EC2 = {
+			isa = PBXGroup;
+			children = (
+				DF6266E72E86D19800C53EC2 /* yugiohLifeCounter */,
+				DF6266F52E86D19900C53EC2 /* yugiohLifeCounterTests */,
+				DF6266FF2E86D19900C53EC2 /* yugiohLifeCounterUITests */,
+				DF6266E62E86D19800C53EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6266E62E86D19800C53EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6266E52E86D19800C53EC2 /* yugiohLifeCounter.app */,
+				DF6266F22E86D19900C53EC2 /* yugiohLifeCounterTests.xctest */,
+				DF6266FC2E86D19900C53EC2 /* yugiohLifeCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6266E42E86D19800C53EC2 /* yugiohLifeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6267062E86D19900C53EC2 /* Build configuration list for PBXNativeTarget "yugiohLifeCounter" */;
+			buildPhases = (
+				DF6266E12E86D19800C53EC2 /* Sources */,
+				DF6266E22E86D19800C53EC2 /* Frameworks */,
+				DF6266E32E86D19800C53EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DF6266E72E86D19800C53EC2 /* yugiohLifeCounter */,
+			);
+			name = yugiohLifeCounter;
+			packageProductDependencies = (
+			);
+			productName = yugiohLifeCounter;
+			productReference = DF6266E52E86D19800C53EC2 /* yugiohLifeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6266F12E86D19900C53EC2 /* yugiohLifeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6267092E86D19900C53EC2 /* Build configuration list for PBXNativeTarget "yugiohLifeCounterTests" */;
+			buildPhases = (
+				DF6266EE2E86D19900C53EC2 /* Sources */,
+				DF6266EF2E86D19900C53EC2 /* Frameworks */,
+				DF6266F02E86D19900C53EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6266F42E86D19900C53EC2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF6266F52E86D19900C53EC2 /* yugiohLifeCounterTests */,
+			);
+			name = yugiohLifeCounterTests;
+			packageProductDependencies = (
+			);
+			productName = yugiohLifeCounterTests;
+			productReference = DF6266F22E86D19900C53EC2 /* yugiohLifeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF6266FB2E86D19900C53EC2 /* yugiohLifeCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF62670C2E86D19900C53EC2 /* Build configuration list for PBXNativeTarget "yugiohLifeCounterUITests" */;
+			buildPhases = (
+				DF6266F82E86D19900C53EC2 /* Sources */,
+				DF6266F92E86D19900C53EC2 /* Frameworks */,
+				DF6266FA2E86D19900C53EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6266FE2E86D19900C53EC2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF6266FF2E86D19900C53EC2 /* yugiohLifeCounterUITests */,
+			);
+			name = yugiohLifeCounterUITests;
+			packageProductDependencies = (
+			);
+			productName = yugiohLifeCounterUITests;
+			productReference = DF6266FC2E86D19900C53EC2 /* yugiohLifeCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6266DD2E86D19800C53EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DF6266E42E86D19800C53EC2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DF6266F12E86D19900C53EC2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DF6266E42E86D19800C53EC2;
+					};
+					DF6266FB2E86D19900C53EC2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DF6266E42E86D19800C53EC2;
+					};
+				};
+			};
+			buildConfigurationList = DF6266E02E86D19800C53EC2 /* Build configuration list for PBXProject "yugiohLifeCounter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6266DC2E86D19800C53EC2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DF6266E62E86D19800C53EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6266E42E86D19800C53EC2 /* yugiohLifeCounter */,
+				DF6266F12E86D19900C53EC2 /* yugiohLifeCounterTests */,
+				DF6266FB2E86D19900C53EC2 /* yugiohLifeCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6266E32E86D19800C53EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6266F02E86D19900C53EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6266FA2E86D19900C53EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6266E12E86D19800C53EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6266EE2E86D19900C53EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6266F82E86D19900C53EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6266F42E86D19900C53EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6266E42E86D19800C53EC2 /* yugiohLifeCounter */;
+			targetProxy = DF6266F32E86D19900C53EC2 /* PBXContainerItemProxy */;
+		};
+		DF6266FE2E86D19900C53EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6266E42E86D19800C53EC2 /* yugiohLifeCounter */;
+			targetProxy = DF6266FD2E86D19900C53EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF6267042E86D19900C53EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF6267052E86D19900C53EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF6267072E86D19900C53EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.navarro.yugiohLifeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF6267082E86D19900C53EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.navarro.yugiohLifeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF62670A2E86D19900C53EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.navarro.yugiohLifeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yugiohLifeCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yugiohLifeCounter";
+			};
+			name = Debug;
+		};
+		DF62670B2E86D19900C53EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.navarro.yugiohLifeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yugiohLifeCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yugiohLifeCounter";
+			};
+			name = Release;
+		};
+		DF62670D2E86D19900C53EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.navarro.yugiohLifeCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yugiohLifeCounter;
+			};
+			name = Debug;
+		};
+		DF62670E2E86D19900C53EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ANN3WL84D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.navarro.yugiohLifeCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yugiohLifeCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6266E02E86D19800C53EC2 /* Build configuration list for PBXProject "yugiohLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6267042E86D19900C53EC2 /* Debug */,
+				DF6267052E86D19900C53EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6267062E86D19900C53EC2 /* Build configuration list for PBXNativeTarget "yugiohLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6267072E86D19900C53EC2 /* Debug */,
+				DF6267082E86D19900C53EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6267092E86D19900C53EC2 /* Build configuration list for PBXNativeTarget "yugiohLifeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF62670A2E86D19900C53EC2 /* Debug */,
+				DF62670B2E86D19900C53EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF62670C2E86D19900C53EC2 /* Build configuration list for PBXNativeTarget "yugiohLifeCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF62670D2E86D19900C53EC2 /* Debug */,
+				DF62670E2E86D19900C53EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF6266DD2E86D19800C53EC2 /* Project object */;
+}
