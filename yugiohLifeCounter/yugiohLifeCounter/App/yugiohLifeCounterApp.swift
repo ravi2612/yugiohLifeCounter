@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct yugiohLifeCounterApp: App {
+struct YugiohLifeCounterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

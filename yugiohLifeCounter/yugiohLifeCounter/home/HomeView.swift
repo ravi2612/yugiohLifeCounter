@@ -1,5 +1,5 @@
 //
-//  homeView.swift
+//  HomeView.swift
 //  yugiohLifeCounter
 //
 //  Created by Ravi navarro on 26/09/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct homeView: View {
+struct HomeView: View {
     
     @State private var timeElapsedInSeconds: Int = 0
     
@@ -62,5 +62,5 @@ struct homeView: View {
 }
 
 #Preview {
-    homeView()
+    HomeView()
 }
